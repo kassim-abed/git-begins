@@ -1,0 +1,33 @@
+h1{
+  text-align: center;
+}
+.image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image img {
+  margin: 0 20px;
+  width: 200px;
+  height: 145px;
+}
+.photo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.photo img {
+  padding-top: 40px;
+  margin: 0 20px;
+  width: 200px;
+  height: 145px;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: auto;
+}
+
+
+

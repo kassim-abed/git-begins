@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../BloomPetals/style3.css">
+  </head>
+  <body>
+    <div class="label">
+    <label for="options">Civilité :</label>
+    <select id="options" name="options">
+      <option value="option1">Mr</option>
+      <option value="Femme">Mme</option>
+    </div>
+    </select>
+    <div class="form-container">
+      <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required />
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required />
+
+        <label for="prenom">Adresse postale :</label>
+        <input
+          type="text"
+          id="Adresse postale"
+          name="Adresse postale"
+          required/>
+
+        <input type="checkbox" id="politique" name="politique" required />
+        <label for="politique"
+          >J'accepte la
+          <a href="URL_de_la_politique_de_confidentialité"
+            >politique de confidentialité</a
+          ></label>
+
+        <button>Validation</button>
+      </form>
+    </div>
+  </body>
+</html>
